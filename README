@@ -8,6 +8,12 @@ This project is developed using JetBrains' PHPStorm IDE.  It is tested on a LAMP
 
 --------------------------------------------------
 
+Updates:
+
+09/14/15 - Added directory structure, began composing framework.  App receives GET variable 'page', checks if this is a valid definition, and loads appropriate content.
+
+--------------------------------------------------
+
 Project Road Map:
 
 - Feature: Authentication
