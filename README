@@ -1,0 +1,38 @@
+Welcome to Vitae
+
+This project is intended to be a PHP based web CMS targeted at technical professionals wishing to manage a personal website.  This project will offer a variety of modules such as a blog, a resume builder, and a gallery application that can be customized to different types of content such as images, or code snippets.
+
+This project will offer a robust backend for administrators to allow easy administration for users that are not familiar with HTML or PHP scripting, however it will also give users that do have these skill access to powerful tools which will allow for even greater customization.
+
+This project is developed using JetBrains' PHPStorm IDE.  It is tested on a LAMP stack using CentOS 6.7, Apache 2.2.15, MySQL 5.5.45, and PHP 5.5.29.
+
+--------------------------------------------------
+
+Project Road Map:
+
+- Feature: Authentication
+Allow authentication against local users.  Options for protecting individual pages, or all pages.  Local authentication will be the default for non-administrative users even if more robust authentication methods are available.
+
+- Feature: Authentication
+Allow authentication against an Active Directory domain.  This can be enabled separately for non-administrative and administrative users.  Can be configured to allow access to various sections of the administrative console.
+
+- Feature: Authentication
+Implement dual-factor authentication options for administrative logins.  The suggested platform for this implementation is DuoSecurtiy (https://www.duosecurity.com/) however other options can be considered.
+
+- Feature: Administration
+Create administration console to allow users access to various site management tools.
+
+- Feature: Administration
+Create page manager to allow administrative users to manage the content of various pages.
+
+- Feature: Administration
+Create theme manager to allow administrative users to manage the style of the site.
+
+- Module: Blog
+Create optional blog module and associated administrative tools.  Allow users to post and edit content in blog format.  Site administrative users should have access to manage blog content, but blog administrative users should not necessarily have access to manage site content.
+
+- Module: Resume Builder
+Create optional resume builder module and associated administrative tools.  This module will allow administrative users to create and manage one or multiple professional web resumes. Other feature ideas include a dynamic references section with testimonials, and a e-mail with cover letter option to allow ease of distribution.  Research in to APIs for sites such as Monster and CareerBuilder should also be considered.
+
+- Module: Gallery
+Create optional gallery module and associated administrative tools.  This module will allow users to display their creative content to prospective clients or employers.  This module should be able to handle many different types of creative content such as images, short stories, code snippets, and design ideas.
